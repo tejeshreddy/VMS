@@ -1,0 +1,7 @@
+CREATE TRIGGER agecheck 
+BEFORE INSERT 
+ON employee FOR EACH ROW
+BEGIN 
+IF NEW.age-(2017-year(NEW.date_of_birth))!=0 THEN SET NEW.age=2017-year(NEW.date_of_birth);
+END IF;
+END;

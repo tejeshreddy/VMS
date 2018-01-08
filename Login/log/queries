@@ -1,0 +1,24 @@
+SELECT CONVERT(CONCAT(time_a,'00'), TIME) AS time1 FROM stops
+
+SELECT time_a,time_b,time_dept_a,time_dept_b FROM stops,routes WHERE routes.rid=stops.rid
+
+SELECT ADDTIME(CAST(CONCAT("40","00") AS TIME),"12:30:00")
+
+
+
+
+<?php 
+$conn= mysqli_connect('localhost','root','');
+  if($conn == false)
+{
+   die(mysqli_connect_error());
+}
+  $db= mysqli_select_db($conn,'vms');
+  $result = mysqli_query($conn,"SELECT rid FROM routes WHERE rid='1' "); 
+  echo "$result";
+?>
+
+
+
+
+

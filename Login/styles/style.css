@@ -1,0 +1,91 @@
+/*body
+{
+	background::#eee;
+}*/
+
+body
+{
+    margin: 0;
+    padding: 0;
+   /* background: url(../bus.jpg);*/
+    background-size: cover;
+}
+
+/*#frm
+{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	width: 20%;
+	height: 420px;
+	box-sizing: border-box;
+	background: rgba(0,0,0,0);
+	padding: 20px;
+
+}*/
+
+#frm
+{
+	/*border: solid grey 1px;*/
+	width: 20%;
+	height:0%; 
+	width: 30%;
+	border-radius: 5px;
+	margin: 60px auto;
+	background: rgba(0,0,0,0.5);
+	padding: 50px;
+}
+
+#frm1
+{
+	/*border: solid grey 1px;*/
+	width: 20%;
+	height:0%; 
+	width: 40%;
+	border-radius: 5px;
+	margin: 60px auto;
+	background: rgba(0,0,0,0.5);
+	padding: 50px;
+}
+
+/*#btn
+{
+	color: #fff;
+	background: #337ab7;
+	padding: 5px;
+	margin-left: 69%; 
+}*/
+/*#btn1
+{
+	color: #fff;
+	background: #337ab7;
+	padding: 5px;
+	margin-left: 35%; 
+}*/
+
+#btn
+{
+	            display: block;
+                width: 100px;
+                height: 40px;
+                /*position: relative;*/
+                border: 2px solid #04a;
+                border-radius: 5px;
+               /*margin: 200px auto;*/
+                margin-left:60%; 
+                background-color: #06c;
+}
+
+#btn1
+{
+	            display: block;
+                width: 100px;
+                height: 40px;
+                /*position: relative;*/
+                border: 2px solid #04a;
+                border-radius: 5px;
+               /*margin: 200px auto;*/
+                margin-left:90px; 
+                background-color: #06c;
+}
